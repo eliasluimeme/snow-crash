@@ -12,3 +12,7 @@ Approach:
 
 Why this works:
 - The cipher is deterministic and position-based, so inversion is direct.
+
+Resources used:
+- `decode.c`
+- `hex_shift.py`
