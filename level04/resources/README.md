@@ -1,8 +1,10 @@
-# Level04 - Simple Writeup
+# Level04 - Writeup
+
+Category: Web Application Security / Command Injection
 
 Goal: inject command into CGI parameter.
 
-Simple approach:
+Approach:
 1. Read level04.pl and find unsanitized backtick execution.
 2. Send payload through HTTP query parameter x.
 3. Execute getflag in injected command context.

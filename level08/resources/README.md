@@ -1,8 +1,10 @@
-# Level08 - Simple Writeup
+# Level08 - Writeup
+
+Category: Binary Exploitation / File Access Restriction
 
 Goal: bypass filename check to read protected token.
 
-Simple approach:
+Approach:
 1. Run ltrace and find strstr(path, "token") check.
 2. Create a symlink with a safe name pointing to token.
 3. Execute binary with symlink path.

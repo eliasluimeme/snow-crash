@@ -1,5 +1,7 @@
 # Level02 - Writeup
 
+Category : Network Forensics / Traffic Analysis
+
 Goal: recover credentials from a network capture.
 
 Approach:

@@ -1,8 +1,10 @@
-# Level12 - Simple Writeup
+# Level12 - Writeup
+
+Category: Remote Exploitation / Command Injection
 
 Goal: bypass CGI input filtering and still execute command.
 
-Simple approach:
+Approach:
 1. Review Perl CGI logic and input transformations.
 2. Place attacker script in /tmp with executable permission.
 3. Trigger script execution through crafted request using command substitution path.

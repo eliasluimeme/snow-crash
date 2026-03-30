@@ -1,6 +1,6 @@
 # Level10 steps
 nc -lk 6969
-# in another shell:
+#### in another shell:
 while true; do
   rm -f /tmp/fake
   touch /tmp/fake

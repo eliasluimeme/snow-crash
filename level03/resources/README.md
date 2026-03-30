@@ -1,8 +1,10 @@
 # Level03 - Simple Writeup
 
+Category: Binary Exploitation / Privilege Escalation
+
 Goal: exploit SUID binary command resolution.
 
-Simple approach:
+Approach:
 1. Run ltrace on level03.
 2. Notice it calls /usr/bin/env echo.
 3. Create a fake echo executable that runs getflag.

@@ -1,8 +1,10 @@
-# Level09 - Simple Writeup
+# Level09 - Writeup
+
+Category : Cryptography / Reverse Engineering
 
 Goal: reverse the custom token transformation.
 
-Simple approach:
+Approach:
 1. Test binary output with known inputs.
 2. Observe rule: output[i] = input[i] + i.
 3. Reverse rule for token bytes: plain[i] = cipher[i] - i.

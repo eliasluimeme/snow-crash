@@ -1,8 +1,10 @@
-# Level10 - Simple Writeup
+# Level10 - Writeup
+
+Category: Privilege Escalation / SUID Exploit
 
 Goal: exploit TOCTOU race between access() and open().
 
-Simple approach:
+Approach:
 1. Run ltrace and confirm access() check then open().
 2. Start a listener on port 6969.
 3. Race a writable file path with symlink swaps to token.

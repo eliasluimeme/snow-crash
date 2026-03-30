@@ -1,5 +1,7 @@
 # Level01 - Writeup
 
+Category: Password Hash Cracking
+
 Goal: crack flag01 password hash.
 
 Approach:
